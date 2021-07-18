@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeSet>
+    <createTable tableName="ISSUE_ACCESSES">
+        <column name="USER_NAME" type="varchar(100)" nullable="false"/>
+        <column name="REPOSITORY_NAME" type="varchar(100)" nullable="false"/>
+        <column name="ISSUE_USER_NAME" type="varchar(100)" nullable="false"/>
+    </createTable>
+</changeSet>
